@@ -63,6 +63,7 @@ Medium: 11px
 html {
   /* setting rem length, by defalut 1rem = 16px, to make 1rem = 10px, set font-size to 0.625% ( 10 / 16 = 0.625 ) */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -70,6 +71,7 @@ body {
   font-weight: 400;
   color: #555;
   line-height: 1;
+  overflow-x: hidden;
 }
 
 /**********************************/
@@ -181,6 +183,7 @@ strong {
 
 .container {
   max-width: 120rem;
+  padding: 0 3.2rem;
   margin: 0 auto;
 }
 
