@@ -13,6 +13,25 @@
   height: 9.6rem;
   position: relative;
 }
+
+/* ~~~ For sticky Nav bar ~~~ */
+.sticky .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 8rem;
+  background-color: rgba(255, 255, 255, 0.95);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  padding-top: 9.6rem;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 .logo {
   height: 2.2rem;
 }
@@ -68,6 +87,7 @@
   background-color: transparent;
   display: none;
   cursor: pointer;
+  z-index: 9999;
 }
 
 .icon-mobile-nav {
